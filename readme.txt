@@ -1,4 +1,3 @@
-k8s debug pod
+k8s debug pod(netshoot+java21+groovy5)
 
-need classic pad
-  repo, workflow, write:package
+kubectl run netshoot --rm -it --image=ghcr.io/udagawa/netshoot-java-groovy:latest -- bash
