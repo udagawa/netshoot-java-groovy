@@ -18,7 +18,7 @@ ENV PATH="${JAVA_HOME}/bin:${PATH}"
 # Groovy 5
 RUN mkdir -p /opt/groovy \
     && curl -L -o /tmp/groovy.zip \
-       https://groovy.jfrog.io/artifactory/dist-release-local/groovy-zips/apache-groovy-binary-5.0.3.zip\
+       https://groovy.jfrog.io/artifactory/dist-release-local/groovy-zips/apache-groovy-binary-5.0.4.zip\
     && unzip /tmp/groovy.zip -d /opt/groovy \
     && mv /opt/groovy/*/* /opt/groovy \
     && rm /tmp/groovy.zip
