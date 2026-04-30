@@ -26,4 +26,3 @@ ENV GROOVY_HOME=/opt/groovy
 ENV PATH="${GROOVY_HOME}/bin:${PATH}"
 
 CMD ["sleep", "infinity"]
-ENTRYPOINT []
